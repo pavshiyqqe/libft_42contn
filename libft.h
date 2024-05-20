@@ -6,7 +6,7 @@
 /*   By: yyaniv <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/17 11:18:42 by yyaniv            #+#    #+#             */
-/*   Updated: 2024/05/17 14:00:43 by yyaniv           ###   ########.fr       */
+/*   Updated: 2024/05/20 16:19:59 by yyaniv           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -28,7 +28,10 @@ int		ft_atoi(char *str);
 int		ft_strlen(char *str);
 
 void	*ft_memset(void *str, int c, size_t n);
+void	*ft_memcpy(void *dest, const void *src, size_t n);
 
 char	*ft_strdup(char *s1);
+char	*ft_strchr(const char *str, int c);
+char	*ft_strrchr(const char *str, int c);
 
 #endif
